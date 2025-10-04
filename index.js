@@ -66,7 +66,7 @@ let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 global.botname = "KNIGHT BOT"
 global.themeemoji = "•"
 
-const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
+#const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
 
 const rl = process.stdin.isTTY ? readline.createInterface({ input: process.stdin, output: process.stdout }) : null
